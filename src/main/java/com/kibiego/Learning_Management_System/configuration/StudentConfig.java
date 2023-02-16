@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Arrays;
 @Configuration
 public class StudentConfig {
-    @Bean
+//    @Bean
     CommandLineRunner commandLineRunner(
             StudentRepository repository ) {
         return args -> {
