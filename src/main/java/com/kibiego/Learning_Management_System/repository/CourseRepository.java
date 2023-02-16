@@ -1,14 +1,12 @@
 package com.kibiego.Learning_Management_System.repository;
 
-import com.kibiego.Learning_Management_System.model.Institution;
+import com.kibiego.Learning_Management_System.model.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
 @Repository
-public interface InstitutionRepository extends JpaRepository<Institution, Long> {
-
-
-    Optional<Institution> findInstitutionByName(String name);
+public interface CourseRepository extends JpaRepository<Course, Long> {
+    Optional<Course> findCourseByName(String name);
 }

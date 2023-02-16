@@ -1,6 +1,8 @@
 package com.kibiego.Learning_Management_System.configuration;
 
-import com.kibiego.Learning_Management_System.institution.Institution;
+import com.kibiego.Learning_Management_System.model.Course;
+import com.kibiego.Learning_Management_System.model.Institution;
+import com.kibiego.Learning_Management_System.repository.CourseRepository;
 import com.kibiego.Learning_Management_System.repository.InstitutionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +14,7 @@ import java.util.Arrays;
 public class InstitutionConfig {
     @Bean
     CommandLineRunner commandLineRunner(
-        InstitutionRepository repository) {
+        InstitutionRepository repository ) {
         return args -> {
 
             Institution Moringa = new Institution(
@@ -32,6 +34,11 @@ public class InstitutionConfig {
                     Arrays.asList(Moringa, KCA, MKU)
             );
         };
+
     }
+
+
+
+
 
 }

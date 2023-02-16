@@ -1,4 +1,4 @@
-package com.kibiego.Learning_Management_System.institution;
+package com.kibiego.Learning_Management_System.model;
 
 import javax.persistence.*;
 

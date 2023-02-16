@@ -1,12 +1,10 @@
 package com.kibiego.Learning_Management_System.service;
 
-import com.kibiego.Learning_Management_System.exception.ResourceNotFoundException;
-import com.kibiego.Learning_Management_System.institution.Institution;
+import com.kibiego.Learning_Management_System.model.Institution;
 import com.kibiego.Learning_Management_System.repository.InstitutionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 

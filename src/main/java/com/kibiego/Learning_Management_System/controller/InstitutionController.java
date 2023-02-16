@@ -1,6 +1,6 @@
 package com.kibiego.Learning_Management_System.controller;
 
-import com.kibiego.Learning_Management_System.institution.Institution;
+import com.kibiego.Learning_Management_System.model.Institution;
 import com.kibiego.Learning_Management_System.service.InstitutionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
